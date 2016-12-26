@@ -16,8 +16,8 @@
 ***
 - Sorting
   - [QuickSort] (https://github.com/stepanovep/Algorithms/blob/master/src/sorting/QuickSort.java)
-  - MergeSort
-  - RadixSort
+  - [MergeSort] (https://github.com/stepanovep/Algorithms/blob/master/src/sorting/MergeSort.java)
+  - [RadixSort] (https://github.com/stepanovep/Algorithms/blob/master/src/sorting/RadixSort.java)
   - [BubbleSort] (https://github.com/stepanovep/Algorithms/blob/master/src/sorting/BubbleSort.java)
 
 ***
