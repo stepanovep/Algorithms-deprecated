@@ -1,19 +1,19 @@
 # Algorithms on Java
 
 - Data Structures
-  - Disjoint Segment Union (DSU)
-  - Segment Tree
+  - [Disjoint Segment Union (DSU)] (https://github.com/stepanovep/Algorithms/blob/master/src/dataStructures/DSU.java)
+  - [Segment Tree] (https://github.com/stepanovep/Algorithms/blob/master/src/dataStructures/SegmentTree.java)
  
 - Graphs
-  - Breadth First Search (BFS)
-  - Depth First Search (DFS)
-  - Kruskal minimum weight Ostov
+  - [Breadth First Search (BFS)] (https://github.com/stepanovep/Algorithms/blob/master/src/graphs/BFS.java)
+  - [Depth First Search (DFS)] (https://github.com/stepanovep/Algorithms/blob/master/src/graphs/DFS.java)
+  - [Kruskal minimum weight Ostov] (https://github.com/stepanovep/Algorithms/blob/master/src/graphs/Kruskal.java)
   
 - Sorting
-  - QuickSort
+  - [QuickSort] (https://github.com/stepanovep/Algorithms/blob/master/src/sorting/QuickSort.java)
   - MergeSort
   - RadixSort
-  - BubbleSort
+  - [BubbleSort] (https://github.com/stepanovep/Algorithms/blob/master/src/sorting/BubbleSort.java)
   
 - String
 
