@@ -13,10 +13,10 @@ public class BFS {
         int n = graph.length;
         visited = new boolean[n];
         dist = new double[n];
-        Arrays.fill(dist, 1e6);
+        Arrays.fill(dist, 1_000_000);
         p = new int[n];
 
-        Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue = new ArrayDeque<>();
         queue.add(s);
         visited[s] = true;
         p[s] = -1;
