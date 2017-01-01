@@ -2,8 +2,10 @@
 ***
 
 - Data Structures
-  - [Disjoint Segment Union (DSU)] (https://github.com/stepanovep/Algorithms/blob/master/src/dataStructures/DSU.java)
+  - [Disjoint Set Union (DSU)] (https://github.com/stepanovep/Algorithms/blob/master/src/dataStructures/DSU.java)
   - [Segment Tree] (https://github.com/stepanovep/Algorithms/blob/master/src/dataStructures/SegmentTree.java)
+  - SQRT-decomposition
+  - Fenwick Tree
 
 *** 
 - Graphs
@@ -12,6 +14,8 @@
   - [Ford-Bellman] (https://github.com/stepanovep/Algorithms/blob/master/src/graphs/FordBellman.java)
   - [Floyd-Warshall] (https://github.com/stepanovep/Algorithms/blob/master/src/graphs/FloydWarshall.java)
   - [Kruskal minimum weight Ostov] (https://github.com/stepanovep/Algorithms/blob/master/src/graphs/Kruskal.java)
+  - Least Common Ancestor (LCA) offline Tarjan
+  
 
 ***
 - Sorting
@@ -27,6 +31,19 @@
 
 ***
 - Algebra
+  - isPrime
+  - GCD & LCM
+  - Eratosthenes Sieve
+  - Fast Fibonacci Calculation
 
 ***
 - Geometry
+  - Triangle Area
+  - Polygon Area
+  - 2 Segments Intersection
+  - 2 Lines Intersection
+  - Line & Circle Intersection
+  - 2 Circles Intersection
+  - Is Point inside Polygon
+  - Segments Union Length
+  - Convex Hull Graham Algorithm
