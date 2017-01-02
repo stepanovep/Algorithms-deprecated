@@ -31,10 +31,10 @@
 
 ***
 - Algebra
-  - isPrime
-  - GCD & LCM
-  - Eratosthenes Sieve
-  - Fast Fibonacci Calculation
+  - [isPrime] (https://github.com/stepanovep/Algorithms/blob/master/src/algebra/IsPrime.java)
+  - [GCD & LCM] (https://github.com/stepanovep/Algorithms/blob/master/src/algebra/GCD.java)
+  - [Eratosthenes Sieve] (https://github.com/stepanovep/Algorithms/blob/master/src/algebra/Eratosthenes.java)
+  - [Fast Fibonacci Calculation] (https://github.com/stepanovep/Algorithms/blob/master/src/algebra/Fibonacci.java)
 
 ***
 - Geometry
