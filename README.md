@@ -38,12 +38,12 @@
 
 ***
 - Geometry
-  - Triangle Area
-  - Polygon Area
+  - [Triangle Area] (https://github.com/stepanovep/Algorithms/blob/master/src/geometry/TriangleArea.java)
+  - [Polygon Area] (https://github.com/stepanovep/Algorithms/blob/master/src/geometry/PolygonArea.java)
   - 2 Segments Intersection
   - 2 Lines Intersection
   - Line & Circle Intersection
   - 2 Circles Intersection
   - Is Point inside Polygon
-  - Segments Union Length
+  - [Segments Union Length] (https://github.com/stepanovep/Algorithms/blob/master/src/geometry/SegmentsUnion.java)
   - Convex Hull Graham Algorithm
