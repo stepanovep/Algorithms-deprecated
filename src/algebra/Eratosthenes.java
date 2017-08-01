@@ -5,9 +5,9 @@ import java.util.Arrays;
 
 public class Eratosthenes {
 
-    static boolean primes[];
+    private static boolean primes[];
 
-    static void eratosthenes(int n) {
+    private static void eratosthenes(int n) {
 
         primes = new boolean[n+1];
         Arrays.fill(primes, true);

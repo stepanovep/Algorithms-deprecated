@@ -3,11 +3,11 @@ package algebra;
 
 public class GCD {
 
-    static int gcd(int a, int b) {
+    private static int gcd(int a, int b) {
         return b == 0 ? a : gcd(b, a % b);
     }
 
-    static int lcm(int a, int b) {
+    private static int lcm(int a, int b) {
         return (a/gcd(a,b)) * b;
     }
 

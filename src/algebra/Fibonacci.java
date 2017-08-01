@@ -10,13 +10,13 @@ public class Fibonacci {
      * 1, 1, 2, 3, 5, 8, 13, 21 ...
      */
 
-    static long dumbFibonacci(int n) {
+    private static long dumbFibonacci(int n) {
         if (n <= 1)
             return 1;
         return dumbFibonacci(n-1) + dumbFibonacci(n-2);
     }
 
-    static long fairFibonacci(int n) {
+    private static long fairFibonacci(int n) {
         if (n <= 1)
             return 1;
 
@@ -30,7 +30,7 @@ public class Fibonacci {
         return b;
     }
 
-    static final FiboMatrix fiboMatrix0 = new FiboMatrix();
+    private static final FiboMatrix fiboMatrix0 = new FiboMatrix();
 
     static class FiboMatrix {
         long a11, a12, a21, a22;
@@ -47,7 +47,7 @@ public class Fibonacci {
         }
     }
 
-    static FiboMatrix binPowMatrix(FiboMatrix fb, int n) {
+    private static FiboMatrix binPowMatrix(FiboMatrix fb, int n) {
         if (n == 1)
             return fiboMatrix0;
         if (n % 2 == 0) {
@@ -58,7 +58,7 @@ public class Fibonacci {
         }
     }
 
-    static FiboMatrix multFiboMatrices(FiboMatrix fb1, FiboMatrix fb2) {
+    private static FiboMatrix multFiboMatrices(FiboMatrix fb1, FiboMatrix fb2) {
         FiboMatrix fb = new FiboMatrix();
         fb.a11 = fb1.a11*fb2.a11 + fb1.a12*fb2.a21;
         fb.a12 = fb1.a11*fb2.a12 + fb1.a12*fb2.a22;
@@ -67,14 +67,13 @@ public class Fibonacci {
         return fb;
     }
 
-    static long fastFibonacci(int n) {
+    private static long fastFibonacci(int n) {
         return binPowMatrix(fiboMatrix0, n).a11;
     }
 
     public static void main(String[] args) {
 
-
-        int n = 100_000_000;
+        int n = 1000_000;
         long startTime;
 
         /*startTime = System.currentTimeMillis();
