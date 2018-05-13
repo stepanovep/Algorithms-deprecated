@@ -4,9 +4,14 @@ buildscript {
     repositories {
         mavenCentral()
     }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
 }
 
 apply plugin: 'java'
+apply plugin: 'kotlin'
 
 group 'stepanovep'
 version '1.0-SNAPSHOT'
