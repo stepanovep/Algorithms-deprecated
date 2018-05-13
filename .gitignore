@@ -6,3 +6,5 @@ out/
 *.log
 .idea/
 *.iml
+in.txt
+out.txt
