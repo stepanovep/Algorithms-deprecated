@@ -3,8 +3,7 @@ bin/
 .gradle/
 build/
 out/
-.idea/
-*.iml
+.idea/workspace.xml
 in.txt
 out.txt
 src/main/kotlin/A.kt
