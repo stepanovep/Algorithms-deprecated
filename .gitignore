@@ -3,15 +3,5 @@ bin/
 .gradle/
 build/
 out/
-in.txt
-out.txt
-src/main/kotlin/A.kt
-src/main/kotlin/B.kt
-src/main/kotlin/C.kt
-src/main/kotlin/D.kt
-src/main/kotlin/E.kt
-src/main/java/TaskA.java
-src/main/java/TaskB.java
-src/main/java/TaskC.java
-src/main/java/TaskD.java
-src/main/java/TaskE.java
+.idea/
+*.iml
